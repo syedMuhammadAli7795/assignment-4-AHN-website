@@ -1,0 +1,165 @@
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(100, 100, 100, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 110px;
+    height: auto;
+  }
+  .fa-briefcase ,.fa-camera ,.fa-users ,.fa-envelope{
+      font-size: 62px !important;
+  }
+
+
+
+  .ourservices{
+
+    padding: 300px 0px 60px;
+    height: 700px;
+
+  }
+  .ourservices h1{
+    font-size: 50px;
+    
+  }
+  .rowsetting{
+    margin: 80px 0px  !important;
+  }
+.imgsetting{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.fa-broadcast-tower, .fa-microphone,.fa-file-video {
+  margin-top: 21px;
+}
+.rowsetting p{
+  color: #6c757d !important;
+
+  padding: 10px;
+}
+.rowsetting h2{
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.ourteam{
+  height: 700px;
+  padding: 300px 0px 60px;
+  width: 100%;
+}
+.ourteam h1
+{
+  font-size: 70px;
+  font-weight: bold;
+}
+.teamsetting{
+   margin-top: 50px !important;
+}
+.footer{
+
+  height: 50px;
+  padding: 134px;
+
+}
+.footer h1{
+  line-height: 50px;
+}
+
+
+.ourportfolio{
+
+  height: 700px;
+  padding: 300px 0px 60px;
+  width: 100%;
+}
+
+.contct{
+  height: 700px;
+  padding: 151px 372px 60px;
+  width: 100%;
+}
+
+.ourportfolio h1
+{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.ourservices h1
+{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
+
+
+.con{
+ border-radius: 18px;
+    background: rgb(233, 231, 235);
+    padding: 20px; 
+    width: 306px;
+    height: 15px;  
+}
+/* 
+
+@media(min-width:992px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+  
+}
+@media(min-width:575px) and (max-width:767px){
+
+}
+@media(min-width:480px) and (max-width:574px){
+
+}
+
+@media(max-width:479px){
+
+
+
+
+  
+  .ourservices{
+    height: 3000px;}
+ .ourteam h1{
+   height: 2700px;
+ }
+} */
+
+
